@@ -13,7 +13,8 @@ app.use(express.json());
 // nme:your-travel-guru
 // password:rKPC8znsT3Kj1fGe
 
-
+// DB_USER= your-travel-guru
+// DB_PASS= rKPC8znsT3Kj1fGe
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.effps.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 console.log(uri);
